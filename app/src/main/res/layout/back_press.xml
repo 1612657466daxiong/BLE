@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="325dp"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/tv_dialog"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#999999"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确定要退出登录吗"
+        />
+    <Button
+        android:id="@+id/btn_positive"
+        android:text="确认"
+        android:textColor="#999999"
+        android:textSize="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_layout"
+        android:layout_margin="20dp"/>
+
+
+</LinearLayout>

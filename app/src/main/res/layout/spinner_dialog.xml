@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="雨  量   强   度："/>
+        <Spinner
+            android:id="@+id/ylqd_sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="雨量筒分辨率："/>
+        <Spinner
+            android:id="@+id/fbl_sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        >
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btn_chose_commit"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@drawable/btn_quit"
+            android:text="确定"
+            android:textColor="#ffffff"
+            android:textSize="23sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            />
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btn_chose_quit"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@drawable/btn_quit"
+            android:text="取消"
+            android:textColor="#ffffff"
+            android:textSize="23sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

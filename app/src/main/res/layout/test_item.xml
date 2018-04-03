@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    >
+    <TextView
+        android:id="@+id/test_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2017-08-12 08:52:12"
+
+        android:textSize="15sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            android:text="预计用时"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/dur"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_alignParentLeft="true"
+            android:text="注水量"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            android:text="当前用时"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/dangqianyongshi"
+            android:layout_width="wrap_content"
+
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+
+            android:layout_alignParentRight="true"
+            android:text="注水量"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            android:text="雨量强度"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/ylqd"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_alignParentLeft="true"
+            android:text="注水量"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            android:text="分辨率"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/fbl"
+            android:layout_width="wrap_content"
+
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_alignParentRight="true"
+            android:text="注水量"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            android:text="注水量"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:id="@+id/zhushuiliang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="18sp"
+            android:text="注水量"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            android:text="翻斗次数"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/fandoucishu"
+
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_alignParentRight="true"
+            android:text="注水量"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            android:text="误差"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/wuliangwucha"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_alignParentLeft="true"
+            android:text="注水量"/>
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
